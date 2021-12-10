@@ -1,373 +1,256 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Page header-->
     <header class="page-header">
-      <!-- Main navigation -->
-      <nav class="container main-nav">
-        <a href="./index.html" class="logo">Web<span class="color-black">Studio</span></a>
-        <ul class="site-nav">
-          <li class="item"><a href="./index.html" class="link-text current">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link-text">Портфолио</a></li>
-          <li class="item"><a href="#" class="link-text">Контакты</a></li>
-        </ul>
+        <!-- Main navigation -->
+        <nav class="container main-nav">
+            <a href="./index.html" class="logo">Web<span class="color-black">Studio</span></a>
+            <ul class="site-nav">
+                <li class="item"><a href="./index.html" class="link-text current">Студия</a></li>
+                <li class="item"><a href="./portfolio.html" class="link-text">Портфолио</a></li>
+                <li class="item"><a href="#" class="link-text">Контакты</a></li>
+            </ul>
 
-        <ul class="contacts">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link-text">info@devstudio.com</a>
-          </li>
-          <li class="item"><a href="tel:+380961111111" class="link-text">+38 096 111 11 11</a></li>
-        </ul>
-      </nav>
+            <ul class="contacts">
+                <li class="item">
+                    <a href="mailto:info@devstudio.com" class="link-text">info@devstudio.com</a>
+                </li>
+                <li class="item"><a href="tel:+380961111111" class="link-text">+38 096 111 11 11</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- Unique page content -->
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="btn hero-btn">Заказать услугу</button>
-      </section>
-      <!-- Our features-->
-      <section class="section">
-        <div class="container">
-          <h2 class="invisible">Особенности</h2>
-          <ul class="feature-list">
-            <li class="item item-antenna">
-              <h3 class="feature-title">Внимание к деталям</h3>
-              <p class="feature-text">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
-            </li>
-            <li class="item item-clock">
-              <h3 class="feature-title">Пунктуальность</h3>
-              <p class="feature-text">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-              </p>
-            </li>
-            <li class="item item-diagram">
-              <h3 class="feature-title">Планирование</h3>
-              <p class="feature-text">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
-            </li>
-            <li class="item item-astronaut">
-              <h3 class="feature-title">Современные технологии</h3>
-              <p class="feature-text">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Works examples -->
-      <section class="section works-section">
-        <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="works-list">
-            <li class="item">
-              <img src="./images/box1.jpg" alt="box1" width="370" height="294" />
-            </li>
-            <li class="item">
-              <img src="./images/box2.jpg" alt="box2" width="370" height="294" />
-            </li>
-            <li class="item">
-              <img src="./images/box3.jpg" alt="box3" width="370" height="294" />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Our team -->
-      <section class="section team-section">
-        <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="team-list">
-            <li class="item">
-              <img
-                src="./images/team_designer.jpg"
-                alt="дизайнер, игорь демьяненко"
-                width="270"
-                height="260"
-              />
-              <div class="item-content">
-                <h3 class="team-title">Игорь Демьяненко</h3>
-                <p lang="en" class="team-text">Product Designer</p>
-              </div>
-              <ul class="team-social-list">
-                <li class="item">
-                  <!-- Способ подключения через inline SVG -->
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="item">
-              <img
-                src="./images/team_developer.jpg"
-                alt="разработчик, ольга репина"
-                width="270"
-                height="260"
-              />
-              <div class="item-content">
-                <h3 class="team-title">Ольга Репина</h3>
-                <p lang="en" class="team-text">Frontend Developer</p>
-              </div>
-              <ul class="team-social-list">
-                <li class="item">
-                  <!-- Способ подключения через inline SVG -->
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="item">
-              <img
-                src="./images/team_marketing.jpg"
-                alt="маркетолог, николай тарасов"
-                width="270"
-                height="260"
-              />
-              <div class="item-content">
-                <h3 class="team-title">Николай Тарасов</h3>
-                <p lang="en" class="team-text">Marketing</p>
-              </div>
-              <ul class="team-social-list">
-                <li class="item">
-                  <!-- Способ подключения через inline SVG -->
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="item">
-              <img
-                src="./images/team_uidesigner.jpg"
-                alt="дизайнер, михаил ермаков"
-                width="270"
-                height="260"
-              />
-              <div class="item-content">
-                <h3 class="team-title">Михаил Ермаков</h3>
-                <p lang="en" class="team-text">UI Designer</p>
-              </div>
-              <ul class="team-social-list">
-                <li class="item">
-                  <!-- Способ подключения через inline SVG -->
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-                <li class="item">
-                  <a href="#" class="team-social-link instagram" aria-label="Instagram">
-                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_1_202)">
-                        <path
-                          d="M13.3308 3.32083H15.1567V0.140833C14.8417 0.0975 13.7583 0 12.4967 0C9.86417 0 8.06084 1.65583 8.06084 4.69917V7.5H5.15583V11.055H8.06084V20H11.6225V11.0558H14.41L14.8525 7.50083H11.6217V5.05167C11.6225 4.02417 11.8992 3.32083 13.3308 3.32083Z"
-                        />
-                      </g>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-          <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="customer-list">
-            <li>
-              <a href="#"><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="" alt="" /></a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="btn hero-btn">Заказать услугу</button>
+        </section>
+        <!-- Our features-->
+        <section class="section">
+            <div class="container">
+                <h2 class="invisible">Особенности</h2>
+                <ul class="feature-list">
+                    <li class="item item-antenna">
+                        <h3 class="feature-title">Внимание к деталям</h3>
+                        <p class="feature-text">
+                            Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>
+                    </li>
+                    <li class="item item-clock">
+                        <h3 class="feature-title">Пунктуальность</h3>
+                        <p class="feature-text">
+                            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                        </p>
+                    </li>
+                    <li class="item item-diagram">
+                        <h3 class="feature-title">Планирование</h3>
+                        <p class="feature-text">
+                            Равным образом консультация с широким активом в значительной степени обуславливает.
+                        </p>
+                    </li>
+                    <li class="item item-astronaut">
+                        <h3 class="feature-title">Современные технологии</h3>
+                        <p class="feature-text">
+                            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Works examples -->
+        <section class="section works-section">
+            <div class="container">
+                <h2 class="section-title">Чем мы занимаемся</h2>
+                <ul class="works-list">
+                    <li class="item">
+                        <img src="./images/box1.jpg" alt="box1" width="370" height="294" />
+                    </li>
+                    <li class="item">
+                        <img src="./images/box2.jpg" alt="box2" width="370" height="294" />
+                    </li>
+                    <li class="item">
+                        <img src="./images/box3.jpg" alt="box3" width="370" height="294" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Our team -->
+        <section class="section team-section">
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="team-list">
+                    <li class="item">
+                        <img class="team-avatar" src="./images/team_designer.jpg" alt="дизайнер, игорь демьяненко" width="270" />
+                        <h3 class="team-title">Игорь Демьяненко</h3>
+                        <p lang="en" class="team-text">Product Designer</p>
+                        <ul class="team-social-list">
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-instagram'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-twitter'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-facebook'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-linkedin'></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <img class="team-avatar" src="./images/team_developer.jpg" alt="разработчик, ольга репина" width="270" />
+                        <h3 class="team-title">Ольга Репина</h3>
+                        <p lang="en" class="team-text">Frontend Developer</p>
+                        <ul class="team-social-list">
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-instagram'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-twitter'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-facebook'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-linkedin'></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <img class="team-avatar" src="./images/team_marketing.jpg" alt="маркетолог, николай тарасов" width="270" height="260" />
+                        <div class="item-content">
+                            <h3 class="team-title">Николай Тарасов</h3>
+                            <p lang="en" class="team-text">Marketing</p>
+                        </div>
+                        <ul class="team-social-list">
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-instagram'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-twitter'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-facebook'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-linkedin'></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <img class="team-avatar" src="./images/team_uidesigner.jpg" alt="дизайнер, михаил ермаков" width="270" height="260" />
+                        <div class="item-content">
+                            <h3 class="team-title">Михаил Ермаков</h3>
+                            <p lang="en" class="team-text">UI Designer</p>
+                        </div>
+                        <ul class="team-social-list">
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-instagram'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-twitter'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-facebook'></use></svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="team-social-link">
+                                    <svg><use href='./images/icons/symbol-defs.svg#icon-linkedin'></use></svg>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Постоянные клиенты</h2>
+                <ul class="customer-list">
+                    <li class="item">
+                        <a href="#" class="customer-link">
+                            <svg><use href='./images/icons/symbol-defs.svg#icon-logo-client1'></use></svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="customer-link">
+                            <svg><use href='./images/icons/symbol-defs.svg#icon-logo-client2'></use></svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="customer-link">
+                            <svg><use href='./images/icons/symbol-defs.svg#icon-logo-client3'></use></svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="customer-link">
+                            <svg><use href='./images/icons/symbol-defs.svg#icon-logo-client4'></use></svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="customer-link">
+                            <svg><use href='./images/icons/symbol-defs.svg#icon-logo-client5'></use></svg>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="customer-link">
+                            <svg><use href='./images/icons/symbol-defs.svg#icon-logo-client6'></use></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <!-- Page footer-->
     <footer class="page-footer">
-      <div class="container">
-        <a href="./index.html" class="logo logo-footer"
-          >Web<span class="color-white">Studio</span></a
+        <div class="container">
+            <a href="./index.html" class="logo logo-footer">Web<span class="color-white">Studio</span></a
         >
         <address>
           <ul class="address">
@@ -382,16 +265,16 @@
               </a>
             </li>
             <li>
-              <a href="mailto:info@example.com" class="address-link address-contact"
-                >info@example.com</a
+                <a href="mailto:info@example.com" class="address-link address-contact">info@example.com</a
               >
             </li>
             <li>
               <a href="tel:+380991111111" class="address-link address-contact">+38 099 111 11 11</a>
             </li>
-          </ul>
-        </address>
-      </div>
+            </ul>
+            </address>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
