@@ -32,9 +32,21 @@
 
         <ul class="contacts">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link-text">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link-text">
+              <svg width="12" height="16">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              <span>info@devstudio.com</span>
+            </a>
           </li>
-          <li class="item"><a href="tel:+380961111111" class="link-text">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link-text">
+              <svg width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -64,7 +76,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img1.jpg"
+                  src="./images/portfolio/portfolio1.jpg"
                   alt="Изображение 1"
                   width="370"
                   height="294"
@@ -78,7 +90,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img2.jpg"
+                  src="./images/portfolio/portfolio2.jpg"
                   alt="Изображение 2"
                   width="370"
                   height="294"
@@ -92,7 +104,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img3.jpg"
+                  src="./images/portfolio/portfolio3.jpg"
                   alt="Изображение 3"
                   width="370"
                   height="294"
@@ -106,7 +118,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img4.jpg"
+                  src="./images/portfolio/portfolio4.jpg"
                   alt="Изображение 4"
                   width="370"
                   height="294"
@@ -120,7 +132,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img5.jpg"
+                  src="./images/portfolio/portfolio5.jpg"
                   alt="Изображение 5"
                   width="370"
                   height="294"
@@ -134,7 +146,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img6.jpg"
+                  src="./images/portfolio/portfolio6.jpg"
                   alt="Изображение 6"
                   width="370"
                   height="294"
@@ -148,7 +160,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img7.jpg"
+                  src="./images/portfolio/portfolio7.jpg"
                   alt="Изображение 7"
                   width="370"
                   height="294"
@@ -162,7 +174,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img8.jpg"
+                  src="./images/portfolio/portfolio8.jpg"
                   alt="Изображение 8"
                   width="370"
                   height="294"
@@ -176,7 +188,7 @@
             <li class="item">
               <a href="#">
                 <img
-                  src="./images/portfolio_img/portfolio_img9.jpg"
+                  src="./images/portfolio/portfolio9.jpg"
                   alt="Изображение 9"
                   width="370"
                   height="294"
@@ -194,31 +206,62 @@
     <!-- Page footer-->
     <footer class="page-footer">
       <div class="container">
-        <a href="./index.html" class="logo logo-footer"
-          >Web<span class="color-white">Studio</span></a
-        >
-        <address>
-          <ul class="address">
-            <li>
-              <a
-                href="https://goo.gl/maps/w9HEKeFZL726Zbut9"
-                target="_blank"
-                rel="noreferrer noopener nofollow"
-                class="address-link"
-              >
-                г.Киев, пр-т Леси Украинки, 26
-              </a>
-            </li>
-            <li>
-              <a href="mailto:info@example.com" class="address-link address-contact"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380991111111" class="address-link address-contact">+38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+        <ul class="footer-list">
+          <li class="item">
+            <a href="./index.html" class="logo logo-footer">
+              Web<span class="color-white">Studio</span>
+            </a>
+            <address>
+              <ul class="address">
+                <li>
+                  <a
+                    href="https://goo.gl/maps/w9HEKeFZL726Zbut9"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    class="address-link"
+                  >
+                    г.Киев, пр-т Леси Украинки, 26
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com" class="address-link address-contact">
+                    info@example.com
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+380991111111" class="address-link address-contact">
+                    +38 099 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </li>
+          <li class="item">
+            <p class="footer-social-text">Присоединяйтесь</p>
+            <ul class="footer-social-list">
+              <li class="item">
+                <a href="#" class="footer-social-link">
+                  <svg><use href="./images/icons.svg#icon-instagram"></use></svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="footer-social-link">
+                  <svg><use href="./images/icons.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="footer-social-link">
+                  <svg><use href="./images/icons.svg#icon-facebook"></use></svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="footer-social-link">
+                  <svg><use href="./images/icons.svg#icon-linkedin"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
