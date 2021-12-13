@@ -360,8 +360,9 @@ svg {
 /* team social link lists */
 
 .team-social-link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -424,10 +425,7 @@ svg {
 
 .footer-list {
   display: flex;
-}
-
-.footer-list > li:first-child {
-  margin-right: 70px;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -436,6 +434,7 @@ svg {
 }
 
 /* footer address */
+
 .address {
   margin-top: 20px;
   font-style: normal;
@@ -459,8 +458,11 @@ svg {
 }
 
 /* footer social link */
+.footer-social {
+  padding-left: 70px;
+}
+
 .footer-social-text {
-  padding-top: 12px;
   margin-bottom: 20px;
   font-weight: bold;
   line-height: calc(16 / 14);
@@ -478,8 +480,9 @@ svg {
 }
 
 .footer-social-link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
